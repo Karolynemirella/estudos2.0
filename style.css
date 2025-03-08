@@ -31,9 +31,24 @@
     --cor14:#FDF5E6;
 }
 
+body {
+    background-color: var(--cor14);
+}
+
+p {
+    margin: 15px 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom,var(--cor2),var(--cor3));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
 header > h1 {
     color: white;
-    font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
